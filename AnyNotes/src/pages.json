@@ -1,0 +1,56 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "随记"
+			}
+		},
+		{
+			"path": "pages/Notes/Note",
+			"style":{
+				"navigationBarTitleText": "笔记"
+			}
+		},
+		{
+			"path": "pages/Info/Info",
+			"style":{
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar":{
+		"color": "#003472",
+		"selectedColor": "#4b5cc4",
+		"backgroundColor": "white",
+		"borderStyle": "black",
+		"fontSize": "20px",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text": "日程",
+				"iconPath": "static/icon/listD.png",
+				"selectedIconPath": "static/icon/listS.png"
+			},
+			{
+				"pagePath":"pages/Notes/Note",
+				"text":"笔记",
+				"iconPath": "static/icon/noteD .png",
+				"selectedIconPath": "static/icon/noteS.png"
+			},
+			{
+				"pagePath":"pages/Info/Info",
+				"text":"我的",
+				"iconPath": "static/icon/id-card-5D.png",
+				"selectedIconPath": "static/icon/id-card-5S.png"
+			}
+		]
+	}
+}
